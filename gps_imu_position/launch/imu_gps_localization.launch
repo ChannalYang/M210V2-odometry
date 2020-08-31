@@ -1,0 +1,18 @@
+<launch>
+
+    <node name="nmea_topic_driver" pkg="nmea_navsat_driver" type="nmea_topic_driver" output="screen" />
+    <node name="gps_imu_position_node" pkg="gps_imu_position" type="gps_imu_position_node" output="screen" />
+
+
+    <param name="acc_noise"       type="double" value="1e-2" />
+    <param name="gyro_noise"      type="double" value="1e-4" />
+    <param name="acc_bias_noise"  type="double" value="1e-6" />
+    <param name="gyro_bias_noise" type="double" value="1e-8" />
+
+    <param name="I_p_Gps_x"       type="double" value="0.0" />
+    <param name="I_p_Gps_y"       type="double" value="0.0" />
+    <param name="I_p_Gps_z"       type="double" value="0.0" />
+
+    
+
+</launch>

@@ -1,0 +1,3 @@
+[Project]
+Manager=KDevCMakeManager
+Name=gps_imu_position
