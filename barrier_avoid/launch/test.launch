@@ -1,0 +1,4 @@
+<launch>
+   <nodepkg="barrier_avoid"name="barrier_avoid" type="barrier_function"/>
+   <nodepkg="position_pub" type="position_pub" name="barrier_pub" output="screen"/>
+</launch>
